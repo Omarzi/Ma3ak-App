@@ -1,0 +1,100 @@
+name: ma3ak_app
+description: "A Maak App."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Utility Package
+  floating_snackbar: ^1.0.5
+  url_launcher: ^6.3.0
+  flutter_native_splash: ^2.4.1
+  intl: ^0.19.0
+
+  # Local Database
+  shared_preferences: ^2.3.2
+
+  # Icons
+  iconsax_flutter: ^1.0.0
+
+  # Animation
+  lottie: ^3.1.2
+
+  # Images
+  image_picker: ^1.1.2
+
+  # State Management
+  flutter_bloc: ^8.1.6
+
+  # Make Banner
+  carousel_slider: ^5.0.0
+
+  # To Call Backend
+  dio: ^5.6.0
+
+  # Image Cach
+  cached_network_image: ^3.4.1
+
+  # Responsive Ui
+  flutter_screenutil: ^5.9.3
+
+  # Make Animation When Navigate
+  page_transition: ^2.1.0
+
+  # SVG Pictures
+  flutter_svg: ^2.0.10+1
+
+  # Custom Field On OTP
+  pinput: ^5.0.0
+
+  # Dotted Container
+  dotted_border: ^2.1.0
+
+  # Get Location
+#  geolocator: ^13.0.1
+#  google_maps_flutter: ^2.9.0
+#  maps_launcher: ^2.2.1
+
+  permission_handler: ^11.3.1
+  path_provider: ^2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  # assets:
+  assets:
+    - assets/images/svgs/
+    - assets/images/jpgs/
+    - assets/images/pngs/
+    - assets/images/lotties/
+  #   - images/a_dot_burr.jpeg
+
+  # fonts:
+  fonts:
+    - family: Comic Sans Ms
+      fonts:
+#        - asset: assets/fonts/comic_sans_ms/COMIC.TTF
+        - asset: assets/fonts/comic_sans_ms/comic.ttf
+        - asset: assets/fonts/comic_sans_ms/ComicSansMS3.ttf
+        - asset: assets/fonts/comic_sans_ms/comicz.ttf
+        - asset: assets/fonts/comic_sans_ms/design.graffiti.comicsansms.ttf
+        - asset: assets/fonts/comic_sans_ms/design.graffiti.comicsansmsgras.ttf
+#    - family: Sego Print
+#      fonts:
+#        - asset: assets/fonts/sego_print/segoepr.ttf
